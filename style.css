@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    list-style: none;
+}
+div {
+    position: relative;
+    animation: card 4s ease-in-out infinite;
+    width: 220px;
+    height: 220px;
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+@keyframes card {
+    0% {
+        background-color: red;
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        background-color: pink;
+        top: 0;
+        left: 300px;
+    }
+
+    50% {
+        background-color: black;
+        top: 400px;
+        left: 300px;
+    }
+
+    75% {
+        background-color: orange;
+        top: 500;
+        left: 0;
+    }
+    100%{
+        background-color: aqua;
+        top: 0;
+        right: 0;
+    }
+}
